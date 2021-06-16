@@ -4,7 +4,7 @@ html {
 }
 
 body{
-  background-image: url(rohini.jpg);
+  background-image: url(rohini1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body{
 h1{
   font-weight: bolder;
   font-size: 3rem;
-  color: white;
+  color: black;
   z-index: 999;
 }
 
@@ -44,4 +44,20 @@ padding: 10%;
 
 .btn{
   font-weight: bold !important;
+}
+
+
+
+#footer{
+  padding: 3% 7%;
+  text-align: center;
+  font-size: 3rem;
+}
+ #footer a{
+   padding: 3%;
+   background-color: rgba(255,255,255,0.3);
+   color: #474b4f;
+ }
+#footer a:hover{
+  color: black;
 }
